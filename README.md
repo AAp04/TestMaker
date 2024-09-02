@@ -1,4 +1,4 @@
-# TestMaker
+# EduAssess: Exam Management System
 
 Making a Exam making and taking application. The users will be teachers that build tests and review results. They can also manage students so that students can login in take a test, and see their results for all tests they have taken.
 Teachers can modify a test, create a test, or delete a test. A test will contain different types of questions (multiple choice, true/false, and short answer). Teachers should be able to review all grades for a specific test that they chose.
