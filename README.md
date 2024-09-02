@@ -7,17 +7,18 @@ Students can only login, take a test, or see results of their tests.
 
 Database Tables
 1. Users
-/• Columns: UserID, Username, Password, User Type
+• UserID, Username, Password, User Type
 2. Tests
-• Columns: TestID, Name, Duration, CreatorID
+• TestID, Name, Duration, CreatorID
 3. Questions
-• Columns: QuestionID, TestID, QuestionText, Question Type, CorrectAnswer
+• QuestionID, TestID, QuestionText, Question Type, CorrectAnswer
 4. Options (for multiple choice questions)
-• Columns: OptionID, QuestionID, OptionText, IsCorrect
+• OptionID, QuestionID, OptionText, IsCorrect
 5. StudentAnswers
-• Columns: AnswerlD, QuestionID, UserID, AnswerGiven
+• AnswerlD, QuestionID, UserID, AnswerGiven
 6. Results
-• Columns: ResultID, TestID, UserID, Score
+• ResultID, TestID, UserID, Score
+
 Classes
 1. User
 ﻿﻿Properties: UserID, Username, Password, User Type (Teacher/Student)
