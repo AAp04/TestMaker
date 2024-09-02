@@ -7,7 +7,7 @@ Students can only login, take a test, or see results of their tests.
 
 Database Tables
 1. Users
-• Columns: UserID, Username, Password, User Type
+\• Columns: UserID, Username, Password, User Type
 2. Tests
 • Columns: TestID, Name, Duration, CreatorID
 3. Questions
